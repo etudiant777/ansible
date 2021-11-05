@@ -1,1 +1,11 @@
-/home/sam/Ansible/ansible/hosts
+
+[serveurs]
+#server ansible_host=sam@192.168.10.13
+#servers ansible_host=john@192.168.10.15
+server ansible_host=192.168.10.13 ansible_ssh_user=sam ansible_become_pass='crosemont'     
+servers ansible_host=192.168.10.15 ansible_ssh_user=john ansible_become_pass='crosemont'
+#ansible_become_pass="crosemont"
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+
+
