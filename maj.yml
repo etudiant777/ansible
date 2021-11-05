@@ -1,0 +1,14 @@
+- hosts: serveurs
+  tasks:
+          - name: execution de toutes les mises à jour de tous les serveurs de mon inventaire simultanément
+            become: yes
+            become_user: root
+            apt:
+                    state: latest
+                    cache_valid_time: 86400 #1 journee
+                    update_cache: yes
+                    force_apt_get: yes
+                    upgrade: dist
+                    autoclean: yes
+                    autoremove: yes
+
