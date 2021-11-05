@@ -1,5 +1,5 @@
 <div align="center">
-### Projet Ansible
+<h1> Projet Ansible </h1>
 
   ![rosemont](https://upload.wikimedia.org/wikipedia/fr/thumb/e/e2/Logo_college_rosemont_nouveau.png/179px-Logo_college_rosemont_nouveau.png)  
   
